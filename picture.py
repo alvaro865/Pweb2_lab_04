@@ -43,11 +43,12 @@ class Picture:
     """ Devuelve una nueva figura poniendo la figura del argumento 
         al lado derecho de la figura actual """
     c = self.img
+    b = self.p
     a = []
     text = ""
     for i in range(len(c)):
-      d = text + str(c[i]) + str(self.p[i]) 
-      a.append(d)
+      text = c[i] + b[i]
+      a.append(text)
     return Picture(a)
 
   def up(self, p):
