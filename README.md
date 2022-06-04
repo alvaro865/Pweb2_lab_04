@@ -59,13 +59,42 @@
 
 -   La clase [Picture](Tarea-del-Ajedrez/picture.py) contará además con varios métodos que usted deberá implementar:
     1.  verticalMirror: Devuelve el espejo vertical de la imagen
+        
+        - ![Ejercicio 1](Imagenes/imagen1.png)
+        
+        - ![Ejercicio 1](Imagenes/imagen1_1.png)
+        
     2.  horizontalMirror: Devuelve el espejo horizontal de la imagen
+        
+        - ![Ejercicio 2](Imagenes/imagen2.png)
+        
+        - ![Ejercicio 2](Imagenes/imagen2_1.png)
+        
     3.  negative: Devuelve un negativo de la imagen
     4.  join: Devuelve una nueva figura poniendo la figura del argumento al lado derecho de la figura actual
+        
+        - ![Ejercicio 4](Imagenes/imagen3.png)
+        
+        - ![Ejercicio 4](Imagenes/imagen3_1.png)
+        
     5.  up: Devuelve una nueva figura poniendo la figura recibida como argumento, encima de la figura actual
+        
+        - ![Ejercicio 5](Imagenes/imagen4.png)
+        
+        - ![Ejercicio 5](Imagenes/imagen4_1.png)
+        
     6.  under: Devuelve una nueva figura poniendo la figura recibida como argumento, sobre la figura actual
     7.  horizontalRepeat, Devuelve una nueva figura repitiendo la figura actual al costado la cantidad de veces que indique el valor de n
+        
+        - ![Ejercicio 7](Imagenes/imagen5.png)
+        
+        - ![Ejercicio 7](Imagenes/imagen5_1.png)
+        
     8.  verticalRepeat Devuelve una nueva figura repitiendo la figura actual debajo, la cantidad de veces que indique el valor de n
+        
+        - ![Ejercicio 8](Imagenes/imagen6.png)
+        
+        - ![Ejercicio 8](Imagenes/imagen6_1.png)
 
 -   Tenga en cuenta que para implementar todos estos métodos, sólo deberá trabajar sobre la representación interna de un Picture, es decir su atributo img.
 
