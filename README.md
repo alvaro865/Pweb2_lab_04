@@ -136,6 +136,44 @@
      por la interpretación continua de los mismos archivos de origen.
      
 -   ¿Cuáles son los usos y lo que representa el subguión en Python?
+     
+     En la nomenclatura defunciones y variables, indicando una importancia especifica.
+        En este caso,  hay diferentes usos, que están regidos todos, por la convención PEP8, que es la que Python, recomienda como buenas practicas y utiliza.
+        Estos pueden ser:
+
+        - Un guión bajo (_) después de un nombre (class_)
+            Se utiliza para evitar conflictos con palabras clave o con elementos integrados en Python.
+
+        - Un guión bajo (_) antes de un nombre (_variable)
+            En este caso indica que el nombre que sigue al guion es una clase, función, método o variable, con carácter privado o interno, advirtiendo a quien 
+            acceda al código, este aspecto de su implementación.
+            Una salvedad aquí, es que en Python las variables no son del todo privadas, y si siempre se podrá acceder a ellas.
+
+        - Un doble guión bajo (__) antes de un nombre (__perro)
+            En la documentación de Python, se especifica que ” cualquier mombre de la forma __spam se sustituye por _NombreClase__spam”.
+            Para nosotros, NombreClase(),  será el nombre de la clase  donde hemos colocado el doble guión bajo (__).
+            En definitiva, lo que hace Python en este caso, uno de los mas comunes, es manipular el nombre de la clase, para evitar conflictos
+
+        - Un doble guion bajo (__) antes y después de un nombre ( __casa__)
+            Esta funcionalidad del guion,  se utiliza para indicar métodos específicos de Python, conocidos como métodos mágicos, __init__, __file__
+            Esta convención del lenguaje, es indicativa, normalmente podemos sobrescribir alguno de estos métodos, dándole otro significado, (yo prefiero no hacerlo,
+            pero es totalmente posible).
+            Su objetivo no es otro, que evitar conflictos entre los métodos mágicos y algún método definido por nosotros, al momento de escribir el código.
+
+    Facilitando la legibilidad
+        Podemos usar el guion bajo (_), para separar los dígitos de un número de modo que sea mas fácil leerlo. Esta función es puramente decoradora y actúa un poco
+        como el punto(.) que se añade en Excel a trabajar con datos en formato número.
+        
+    Para internacionalizar cadenas
+        Tal y como sucede en C el guion bajo(_), se usa para indicar que una cadena es traducible.
+        En Python con el uso de  la librería gettext, se aplica esta convención, también
+
+    Ignorar valores
+        Cuando deseamos ignorar valores  basta con asignar un guion bajo (_). Esta funcionalidad, es fabulosa y puede utilizarse al recorrer arreglos, o
+        desempaquetarlos.
+
+    Almacenando el ultimo valor de interprete:
+        El guion almacena el ultimo valor que expresa el interprete de Python, incluso nos permite realizar diferentes operaciones matemáticas.
 
 #
 
