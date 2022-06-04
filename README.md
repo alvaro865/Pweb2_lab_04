@@ -123,6 +123,11 @@
 
 ## CUESTIONARIO
 -   ¿Qué son los archivos *.pyc?
+
+     Los archivos PYC son utilizados por el lenguaje de programación Python. PYC es un archivo ejecutable que contiene el código 
+     de bytes compilado para un programa escrito en Python. Bytecode es un conjunto de instrucciones para que el intérprete ejecute 
+     el programa.
+     
 -   ¿Para qué sirve el directorio __pycache__?
 -   ¿Cuáles son los usos y lo que representa el subguión en Python?
 
