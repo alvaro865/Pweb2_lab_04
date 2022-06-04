@@ -43,7 +43,7 @@ class Picture:
     """ Devuelve una nueva figura poniendo la figura del argumento 
         al lado derecho de la figura actual """
     c = self.img
-    b = self.p
+    b = p.img
     a = []
     text = ""
     for i in range(len(c)):
