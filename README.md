@@ -129,6 +129,12 @@
      el programa.
      
 -   ¿Para qué sirve el directorio __pycache__?
+
+     Este es un archivo PYC su ventaja es que son las mismas que las de tener un lenguaje compilado en general: son más rápidos y mejoran 
+     el tiempo de ejecución. Mientras que el código fuente del módulo no cambia, el intérprete de Python no va a interpretar el 
+     módulo cada vez que un programa se ejecuta. Más bien, se usará la versión "lista" del código. Esto disminuye el tiempo utilizado 
+     por la interpretación continua de los mismos archivos de origen.
+     
 -   ¿Cuáles son los usos y lo que representa el subguión en Python?
 
 #
