@@ -75,8 +75,10 @@ class Picture:
     b = p.img
     a = []
     for i in range(len(c)):
-      a.append(b[i])
-      a.append(c[i])
+      if i > 5 and i < len(c) - 5 : 
+        a.append(b[i])
+      else:
+        a.append(c[i])
     return Picture(a)
   
   def horizontalRepeat(self, n):
