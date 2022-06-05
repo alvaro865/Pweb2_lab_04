@@ -45,7 +45,7 @@ class Picture:
       '#': BLUE,
       ' ': DARKGRAY,
     })
-    return Picture(None)
+    return Picture(self.img)
 
   def join(self, p):
     """ Devuelve una nueva figura poniendo la figura del argumento 
