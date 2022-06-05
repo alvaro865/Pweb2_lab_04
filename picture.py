@@ -38,12 +38,12 @@ class Picture:
   def negative(self):
     """ Devuelve un negativo de la imagen """
     color.update({
-      '_': GRAY,
-      '=': LIGHTGRAY,
+      #'_': GRAY,
+      #'=': LIGHTGRAY,
       '.': BLACK,
-      '@': WHITE,
-      '#': BLUE,
-      ' ': DARKGRAY,
+      #'@': WHITE,
+      #'#': BLUE,
+      #' ': DARKGRAY,
     })
     return Picture(self.img)
 
