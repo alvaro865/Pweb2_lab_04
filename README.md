@@ -71,6 +71,11 @@
         - ![Ejercicio 2](Imagenes/imagen2_1.png)
         
     3.  negative: Devuelve un negativo de la imagen
+        
+        - ![Ejercicio 3](Imagenes/imagen8.png)
+        
+        - ![Ejercicio 3](Imagenes/imagen8_1.png)
+        
     4.  join: Devuelve una nueva figura poniendo la figura del argumento al lado derecho de la figura actual
         
         - ![Ejercicio 4](Imagenes/imagen3.png)
@@ -84,6 +89,11 @@
         - ![Ejercicio 5](Imagenes/imagen4_1.png)
         
     6.  under: Devuelve una nueva figura poniendo la figura recibida como argumento, sobre la figura actual
+        
+        - ![Ejercicio 6](Imagenes/imagen7.png)
+        
+        - ![Ejercicio 6](Imagenes/imagen7_1.png)
+        
     7.  horizontalRepeat, Devuelve una nueva figura repitiendo la figura actual al costado la cantidad de veces que indique el valor de n
         
         - ![Ejercicio 7](Imagenes/imagen5.png)
