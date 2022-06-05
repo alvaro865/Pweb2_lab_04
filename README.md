@@ -37,6 +37,15 @@
 <tr>
 <td>FECHA INICIO::</td><td>16-May-2022</td><td>FECHA FIN:</td><td>20-May-2022</td><td>DURACIÓN:</td><td>04 horas</td>
 </tr>
+<tr>
+<td>INTEGRANTES::</td><td>
+<ul>
+<li>Suasaca Pacompia Alvaro Gustavo</li>
+
+</ul>
+<td>NOTA</td><td></td><td></td><td></td>
+</td>
+</tr>
 <tr><td colspan="6">RECURSOS:
     <ul>
         <li>https://www.w3schools.com/python/python_reference.asp</li>
@@ -115,19 +124,13 @@
         1.  Implemente los métodos de la clase Picture. Se recomienda que implemente la clase picture por etapas, probando realizar los dibujos que se muestran en la siguiente preguntas.
         2.  Usando únicamente los métodos de los objetos de la clase Picture dibuje las siguientes figuras (invoque a draw):
 
-            *    (a) ![(a)](imagenes/ejercicio_02_a.png)
+            *    (a) - ![Ejercicio 1a](Imagenes/ejercicio1.png)
 
-            *    (b) ![(b)](imagenes/ejercicio_02_b.png)
+            *    (b) - ![Ejercicio 1b](Imagenes/ejercicio2.png)
 
-            *    (c) ![(c)](imagenes/ejercicio_02_c.png)
+            *    (c) - ![Ejercicio 1c](Imagenes/ejercicio3.png)
 
-            *    (d) ![(d)](imagenes/ejercicio_02_d.png)
-
-            *    (e) ![(e)](imagenes/ejercicio_02_e.png)
-
-            *    (f) ![(f)](imagenes/ejercicio_02_f.png)
-
-            *    (g) ![(g)](imagenes/ejercicio_02_g.png)
+            
 
 #
 
