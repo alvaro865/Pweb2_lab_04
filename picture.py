@@ -66,7 +66,9 @@ class Picture:
     c = self.img
     b = p.img
     a = []
-    a = b + c
+    for i in range(len(c)):
+      a.append(b[i])
+      a.append(c[i])
     return Picture(a)
   
   def horizontalRepeat(self, n):
